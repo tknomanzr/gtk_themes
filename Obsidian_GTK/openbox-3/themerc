@@ -1,0 +1,144 @@
+!!------------------------------------------------------------------------
+!! OpenBox Theme : "IcyBlack"  by damo, September 2014
+!!                  http://capn-damo.deviantart.com
+!!                  <damo.linux@gmail.co>
+!! Using CathexiS by http://samirkahvedzic.deviantart.com
+!! as a starting point
+!! Osidian : by tknomanzr, February 2015
+!! Using "IcyBlack" by Damo
+!!------------------------------------------------------------------------
+
+!! menu title
+menu.title.bg: 					solid flat
+menu.title.bg.color: 			#111111
+menu.title.text.color: 			#1798c1
+menu.title.text.justify: 		Left
+
+menu.border.width: 				1
+menu.border.color:              #111111
+menu.overlap.x: 				-10
+menu.overlap.y:					0
+
+!! menu items
+menu.items.bg: 					raised gradient vertical bevel1
+menu.items.bg.color: 			#111111
+menu.items.text.color: 			#1798c1
+
+menu.items.justify:             left
+menu.items.disabled.text.color: #cccccc
+
+menu.items.active.bg: 			raised gradient vertical bevel1
+menu.items.active.bg.color: 	#4a4c4f
+menu.items.active.text.color: 	#a0a0a0
+
+!! menu separator
+menu.separator.width:			1
+menu.separator.padding.width:	4
+menu.separator.padding.height:	4
+menu.separator.color:           #a0a0a0
+
+!! window title
+window.active.title.bg: 		raised gradient vertical bevel1
+window.active.title.bg.color: 	#333333
+window.active.title.bg.colorTo:	#4a4c4f
+window.inactive.title.bg: 		raised gradient vertical bevel1
+window.inactive.title.bg.color: #333333
+window.inactive.title.bg.colorTo:	#4a4c4f
+window.*.bg.highlight: 80
+window.*.bg.shadow: 10
+window.active.title.bg.highlight: 128
+window.active.title.bg.shadow: 0
+window.inactive.title.bg.highlight: 128
+window.inactive.title.bg.shadow: 0
+!! window text
+padding.width: 			     	2
+padding.height: 		     	1
+window.label.text.justify:      center
+
+window.active.label.bg: 			raised gradient MirrorHorizontal bevel2
+window.active.label.bg.color:   	#333333
+window.active.label.bg.colorTo: 	#01202e
+window.active.label.text.color: 	#1798c1
+window.inactive.label.bg: 			raised gradient MirrorHorizontal bevel2
+window.inactive.label.bg.color:  	#333333
+window.inactive.label.bg.colorTo:	#01202e
+window.inactive.label.text.color:	#1798c1
+!! window borders
+border.width: 					        1
+border.color:					        #111111
+
+window.active.border.color:			    #111111
+window.inactive.border.color:			#111111
+
+window.client.padding.width: 			0
+window.client.padding.height:			0
+
+window.active.client.color:             #222222
+window.inactive.client.color:           #222222
+
+window.active.title.separator.color:    #222222
+window.inactive.title.separator.color:  #222222
+
+!! window handle and grip
+window.handle.width: 				    0
+
+!! ACTIVE
+window.active.button.unpressed.bg: 		    raised gradient vertical bevel1
+window.active.button.unpressed.bg.color: 	#4a4c4f
+window.active.button.unpressed.bg.colorTo:	#333333
+window.active.button.unpressed.image.color:	#ffffff
+
+window.active.button.pressed.bg: 		    flat gradient vertical bevel1
+window.active.button.pressed.bg.color: 		#4a4c4f
+window.active.button.pressed.bg.colorTo:	#333333
+window.active.button.pressed.image.color: 	#a0a0a0
+
+window.active.button.disabled.bg: 		    flat gradient vertical bevel1
+window.active.button.disabled.bg.color: 	#4a4c4f
+window.active.button.disable.bg.colorTo:	#333333
+window.active.button.disabled.image.color: #808080
+
+window.active.button.hover.bg:			    Flat Vertical
+window.active.button.hover.bg.color:        #151515
+window.active.button.hover.bg.colorTo:      #151515
+window.active.button.hover.image.color:     #a0a0a0
+
+window.active.button.toggled.bg: 		    Flat Vertical
+window.active.button.toggled.bg.color: 		#4a4c4f
+window.active.button.toggled.image.color: 	#a0a0a0
+
+!! INACTIVE
+window.inactive.button.unpressed.bg: 		    flat gradient vertical bevel1
+window.inactive.button.unpressed.bg.color:  	#4a4c4f
+window.inactive.button.unpressed.bg.colorTo:	#333333
+window.inactive.button.unpressed.image.color: 	#808080
+
+
+window.inactive.button.pressed.bg: 		        flat gradient vertical bevel1
+window.inactive.button.pressed.bg.color: 	    #4a4c4f
+window.inactive.button.pressed.bg.colorTo:		#333333	
+window.inactive.button.pressed.image.color: 	#808080
+
+window.inactive.button.disabled.bg: 		    flat gradient vertical bevel1
+window.inactive.button.disabled.bg.color: 	    #4a4c4f
+window.inactive.button.disabled.bg.colorTo:		#333333
+window.inactive.button.disabled.image.color: 	#222222
+
+window.inactive.button.hover.bg:                Flat Vertical
+window.inactive.button.hover.bg.color:         	#151515
+window.inactive.button.hover.bg.colorTo:      	#151515
+window.inactive.button.hover.image.color:     	#808080
+
+window.inactive.button.toggled.bg: 		        Flat Vertical
+window.inactive.button.toggled.bg.color: 	    #151515
+window.inactive.button.toggled.image.color: 	#a0a0a0
+
+!! OSD SETTINGS
+#on-screen-dialogs eg alt-tab
+osd.hilight.bg:             flat
+osd.hilight.bg.color:       #222222
+#desktop pager
+osd.unhilight.bg:			flat
+osd.unhilight.bg.color:		#355C7A
+osd.border.width:           10
+osd.border.color:           #111111

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Bunsen
+Comment=A dark and icy theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Bunsen
+MetacityTheme=
+IconTheme=
+CursorTheme=
+ButtonLayout=:minimize,maximize,close
